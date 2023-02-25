@@ -1,0 +1,39 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Pacifico&subset=latin-ext');
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
+
+body {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 0;
+	padding: 2rem;
+	font: 18px/1.5 "Exo 2", sans-serif;
+	color: white;
+	background-color: black;
+	background-image: url(images/bg.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+    min-width: 100vw;
+    height: 16rem;
+	font-size: 10rem;
+	background-color: rgba(0, 0, 0, 0.2);
+}
